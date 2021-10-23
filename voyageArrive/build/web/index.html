@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inicio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+        <style type="text/css"></style>
+    </head>
+    <body>
+        <div class="contenedor">
+            <img src="pictures/Portada.jpg" alt="" id="portada">
+            <div class="logo">
+                <h1 id="voyagearrive">Voyage-Arrivé</h1>
+            </div>
+            <div class="formulario2">    
+                    <h2 id="titulo">Acceder Como Invitado</h2>
+                    <hr id="linea">
+                    <form action="./Controller?ACTION=USUARIO.GUEST" method="post">
+                        <input type="hidden" name ="EMAIL" value="Usuario Invitado"/>
+                        <input type="submit" value="Acceder"/>
+                    </form>
+                    <hr id="linea">
+                </div>
+            <div class="formulario"> 
+                <h2 id="titulo">Acceso De Usuario</h2>
+                <hr id="linea">
+                <form action="./Controller?ACTION=USUARIO.LOGIN" method="post"> 
+                    <label for="EMAIL">Email</label>
+                    <input type="text" name="EMAIL" id="EMAIL"/>
+                    <br /><br />
+                    <label for="PASS">Password</label>
+                    <input type="password" name="PASS" id="PASS"/>
+                    <br /><br />
+                    <input type="submit" value="Enviar"/>
+                    <input type="reset" value="Borrar" name="Borrar" />
+                </form>
+                <hr id="linea">
+                <form action="./Controller?ACTION=USUARIO.NEW" method="post">  
+                        <input type="submit" value="Alta Nuevo Usuario"/>
+                    </form>
+                    <hr id="linea">
+            </div>
+        </div>
+    </body>
+</html>
