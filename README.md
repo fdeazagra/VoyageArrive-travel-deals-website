@@ -29,3 +29,5 @@ Final project of Java EE course building under MVC architecture a web applicatio
 ## Database:
 
 The database contains 2 tables: One for the registration of users "usuario", and another for the offers "estancia".
+
+![tables](https://github.com/fdeazagra/VoyageArrive-travel-deals-website/blob/main/Imagenes/tables.jpg)
