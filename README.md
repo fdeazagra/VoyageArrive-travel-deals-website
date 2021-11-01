@@ -22,13 +22,13 @@ Final project of Java EE course building under MVC architecture a web applicatio
 
   • DB: MySQL
 
-  • Programming languages: Java EE, SQL, HTML, CSS
+  • Languages: Java EE, SQL, HTML, CSS
 
   • Others: Servlet, JSPs, REST API
   
 ## Database:
 
-The database contains 2 tables: One for the registration of users "usuario", and another for the offers "estancia".
+The database contains 2 tables: "usuario" for the registration of users and "estancia" for the offers.
 
 ![tables](https://github.com/fdeazagra/VoyageArrive-travel-deals-website/blob/main/Imagenes/tables.jpg)
 
